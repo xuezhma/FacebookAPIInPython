@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Facebook API In Python",
+  "description": "Change default language from PHP to Python",
+  "version": "0.138",
+  "icons": {
+      "16": "images/icon.png",
+      "48": "images/icon.png",
+      "128": "images/icon.png"
+  },
+
+  "content_scripts": [
+      {
+          "matches": ["https://developers.facebook.com/*"],
+          "js": ["js/jquery-3.0.0.min.js", "js/index.js"]
+      }
+  ]
+}
