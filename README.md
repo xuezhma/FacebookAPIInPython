@@ -7,3 +7,5 @@ A Chrome extension to make Facebook API docs use Python as default language
 3. Check `Developer Mode`
 4. Click `Load unpacke extension`
 5. Pick the repo and refresh your browser
+
+### Make FB API Python SDK Great Again
